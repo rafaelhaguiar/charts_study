@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage> {
                         xValueMapper: (_PieData data, _) => data.xData,
                         yValueMapper: (_PieData data, _) => data.yData,
                         dataLabelMapper: (_PieData data, _) => data.text,
+                        innerRadius: "50",
                         dataLabelSettings: const DataLabelSettings(
                           isVisible: true,
                           labelPosition: ChartDataLabelPosition.outside,
